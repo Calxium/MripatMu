@@ -14,8 +14,8 @@ from cvzone.FaceDetectionModule import FaceDetector
 
 cred = credentials.Certificate("yourcertificate.jsongi")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://mripatmu-5bfce-default-rtdb.firebaseio.com/",
-    'storageBucket': "mripatmu-5bfce.appspot.com"
+    'databaseURL': "https://database.firebaseio.com/",
+    'storageBucket': "database.appspot.com"
 })
 
 bucket = storage.bucket()
