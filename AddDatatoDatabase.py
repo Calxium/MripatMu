@@ -11,13 +11,40 @@ ref = db.reference('Students')
 
 data = {
 
-        "12345":
+        "19170":
         {
-            "name": "Afrijal Rizqi Ramadan",
+            "name": "Ahmad Hanif Zakaria",
             "major": "TI",
             "starting_year": 2020,
             "total_out": 0,
-            "kelas": "11 A",
+            "kelas": "12-6",
+            "last_out_time": "2022-12-11 00:00:00"
+        },
+        "19342":
+        {
+            "name": "Mohammad Rahardian Atsil",
+            "major": "TI",
+            "starting_year": 2020,
+            "total_out": 0,
+            "kelas": "12-6",
+            "last_out_time": "2022-12-11 00:00:00"
+        },
+        "19201":
+        {
+            "name": "Arkana Rizky Faviansyah",
+            "major": "TI",
+            "starting_year": 2020,
+            "total_out": 0,
+            "kelas": "12-6",
+            "last_out_time": "2022-12-11 00:00:00"
+        },
+        "19167":
+        {
+            "name": "Aditya Rajadana",
+            "major": "TI",
+            "starting_year": 2020,
+            "total_out": 0,
+            "kelas": "12-6",
             "last_out_time": "2022-12-11 00:00:00"
         }
 
