@@ -2,9 +2,9 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 
-cred = credentials.Certificate("serviceCertificate.json")
+cred = credentials.Certificate("yourcertificate.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://mripatmu-5bfce-default-rtdb.firebaseio.com/"
+    'databaseURL': "https://database.firebaseio.com/"
 })
 
 ref = db.reference('Students')

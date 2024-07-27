@@ -7,10 +7,10 @@ from firebase_admin import credentials
 from firebase_admin import db
 from firebase_admin import storage
 
-cred = credentials.Certificate("serviceCertificate.json")
+cred = credentials.Certificate("yourcertificate.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://mripatmu-5bfce-default-rtdb.firebaseio.com/",
-    'storageBucket': "mripatmu-5bfce.appspot.com"
+    'databaseURL': "https://database.firebaseio.com/",
+    'storageBucket': "database.appspot.com"
 })
 
 
